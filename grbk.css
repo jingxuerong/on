@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.bg1{
+width: 100%;
+height: 100%;
+background: url(f22.png) no-repeat;
+background-size: 100%;
+position: relative;
+}
+.sg1{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    animation: xuanzhuan 1s linear infinite;
+}
+.sg1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    animation: xuanzhuan 1s linear infinite;
+}
+#sg2{
+    margin-top: 40px;
+    position: absolute;
+    left: 630px;
+    top: 350px; 
+    color: palevioletred;
+}
+#sg2 a{
+    text-decoration: none;
+}
+ span{
+    color: palevioletred;
+ }
+ @keyframes xuanzhuan {
+    0%{
+        transform: rotate(0edg);
+    }
+    100%{
+        transform: rotate(360edg);
+    }
+ }
